@@ -1,0 +1,6 @@
+[build]
+public ="."
+
+[[redirects]]
+from="/*"
+to="/balakumaran_portfolio1.html"
