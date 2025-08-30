@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>M. Balakumaran - Portfolio</title>
+  
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f3f2;
+      color: #333;
+      
+    }
+
+    header {
+      background: #ffffff;
+      padding: 20px 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #e0e0e0;
+       position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .logo span {
+      color: #00b894;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #080808;
+      font-weight: 500;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 80px 60px;
+      background: linear-gradient(135deg, white 50%, #00b894 50%);
+    }
+
+    .hero-text {
+      flex: 1;
+      padding-right: 40px;
+    }
+
+    .hero-text h2 {
+      font-size: 18px;
+      color: #00b894;
+      margin-bottom: 10px;
+    }
+
+    .hero-text h1 {
+      font-size: 42px;
+      color: #2d3436;
+      margin-bottom: 10px;
+    }
+
+    .hero-text p {
+      font-size: 16px;
+      color: #636e72;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .hero-text button {
+      background-color: #00b894;
+      color: #fff;
+      padding: 12px 25px;
+      font-size: 16px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .hero-img img {
+      width: 150px;
+      border-radius: 90%;
+    }
+
+    .social {
+      position: fixed;
+      top: 40%;
+      left: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .social a {
+      text-decoration: none;
+      color: #00b894;
+      font-size: 18px;
+      transition: all 0.3s ease;
+    }
+
+    .social a:hover {
+      transform: scale(1.2);
+    }
+
+    section {
+      padding: 60px;
+      background: #ffffff;
+      margin-bottom: 20px;
+    }
+   
+
+    section h2 {
+      font-size: 28px;
+      color: #00b894;
+      margin-bottom: 20px;
+    }
+
+    section ul {
+      list-style: square;
+      padding-left: 20px;
+      color: #050505;
+    }
+
+    
+  .contact-form {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contact-form .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    flex: 1;
+    padding: 15px;
+    background-color: transparent;
+    border: 2px solid #00b894;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  .contact-form textarea {
+    width: 100%;
+    height: 150px;
+    resize: none;
+  }
+
+  .contact-form button {
+    padding: 14px;
+    background-color:  #00b894;
+    color: black;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Segoe UI', sans-serif;
+    transition: background-color 0.1s ease;
+  }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #00b894;
+      color: white;
+    }
+
+  </style>
+  
+</head>
+<body>
+
+  <!-- Social Icons -->
+  <div class="social">
+    <a href="#"><img src="https://img.icons8.com/ios-filled/20/00b894/facebook-new.png"/></a>
+    <a href="#"><img src="https://img.icons8.com/ios-filled/20/00b894/twitter.png"/></a>
+    <a href="#"><img src="https://img.icons8.com/ios-filled/20/00b894/instagram-new.png"/></a>
+    <a href="#"><img src="https://img.icons8.com/ios-filled/20/00b894/linkedin.png"/></a>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">Test<span>Engineer</span></div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#languages">Languages</a>
+      <a href="#contact">contact me</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Hello I'm</h2>
+      <h1>M. Balakumaran</h1>
+      <p style="color: #080808;">Professional B.E. ECE Final Year Student | Hardware & Software Enthusiast.</p>
+      <p style="color: #080808;">To begin my career as a Test Engineer and apply my technical skills in ensuring product quality and performance.</p>
+      <a href="#contact">
+        <button>Hire Me</button>
+      </a>
+      
+    </div>
+    <div class="hero-img">
+      <img src="image.img" alt="Balakumaran"/>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am M. Balakumaran, a final-year B.E. Electronics and Communication Engineering student with a passion for developing innovative digital solutions. I enjoy both front-end design and working with embedded systems like FPGA. My goal is to become a skilled developer capable of blending hardware knowledge with web development.</p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Circuit analysis</li>
+      <li>Fundamental of electronics</li>
+      <li>Antenna Design using CST Studio</li>
+      <li>Python</li>
+      <li>Html</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Drowsiness Detection Managem</strong> Developing real-time drowsiness detection using Arduino to enhance driver safety. The system utilizes the driver's eye movements and demonstrates proficiency in embedded systems, integration, sensors, and real-time monitoring for accident prevention.</li>
+      <li><strong>Automatic Fire Fighting Robot using Arduino</strong> Developed an autonomous fire-fighting robot using Arduino to detect and extinguish fire. Integrated flame sensors for fire detection and a motorized water pump for suppression. Utilized DC motors with motor drivers for mobility and implemented obstacle avoidance using ultrasonic sensors. Designed and programmed the system for real-time response, enhancing safety in fire-prone environments.</li>
+      
+    </ul>
+  </section>
+
+  <!-- Certificates -->
+  <section id="certificates">
+    <h2>Certificates</h2>
+    <ul>
+      <li>I have actively participated in a one-day online workshop on<strong>"Advanced PCB Design: Schematic in Fabrication"</strong></li>
+      <li>I have successfully participated in the seminar on <strong>"AI-Powered Data-Centric Revolution in Smart Electronics"</strong></li>
+    </ul>
+  </section>
+
+  <!-- Languages -->
+  <section id="languages">
+    <h2>Languages Known</h2>
+    <ul>
+      <li>Tamil (Native)</li>
+      <li>English (Fluent)</li>
+    </ul>
+  </section>
+  <!--contact me-->
+  
+<!-- Contact -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <div class="row">
+        <input type="text" name="name" placeholder="Full Name" required />
+        <input type="email" name="email" placeholder="Email Address" required />
+      </div>
+      <div class="row">
+        <input type="text" name="phone" placeholder="Mobile Number" required />
+        <input type="text" name="subject" placeholder="Email Subject" required />
+      </div>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 M. Balakumaran | Final Year ECE Student </p>
+    
+           
+       
+
+  </footer>
+
+</body>
+</html>
